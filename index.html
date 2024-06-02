@@ -8,7 +8,9 @@
   <title>Ravi's Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Big+Shoulders+Inline+Text:wght@500&family=Black+Ops+One&family=Bungee+Spice&family=Croissant+One&family=Dancing+Script&family=Lobster&family=PT+Serif&family=Sedan+SC&family=Skranji&display=swap" rel="stylesheet">
   <!-- Favicons -->
   <link href="https://www.pngall.com/wp-content/uploads/2/R-Letter-PNG-Pic.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -21,7 +23,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- =======================================================
   * Template Name: DevFolio
   * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
@@ -29,6 +31,16 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+  .white-text-with-blue-shadow {
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em rgb(77, 77, 237),
+    0 0 0.2em rgb(77, 77, 237)  ;
+  color: white;
+    font-family: "PT Serif", serif;
+}
+  </style>
 </head>
 
 <body>
@@ -46,7 +58,9 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#experience">Experience</a></li>
           <li><a class="nav-link scrollto " href="#work">Projects</a></li>
+          <li><a class="btn btn-primary p-2" href="Ravi Rajpoot CV.pdf">Download CV</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -61,7 +75,7 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="hero-title mb-4">I am Ravi Rajpoot</h1>
+          <h1 class="hero-title mb-4 white-text-with-blue-shadow">I am Ravi Rajpoot</h1>
           <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
@@ -113,6 +127,10 @@
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
+                     <span>Laravel</span> <span class="pull-right">80%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -156,10 +174,10 @@
           <div class="col-sm-12">
             <div class="title-box text-center">
               <h3 class="title-a">
-                Services
+                Technologies
               </h3>
               <p class="subtitle-a">
-                The services I offer to my clients are :
+                 Technologies I have worked with
               </p>
               <div class="line-mf"></div>
             </div>
@@ -169,10 +187,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+                <span class="ico-circle"><i class="fa-brands fa-php"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
+                <h2 class="s-title">PHP</h2>
                 <p class="s-description text-center">
                   <!-- Write here -->
                 </p>
@@ -182,10 +200,10 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+                <span class="ico-circle"><i class="fa-brands fa-laravel"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Development</h2>
+                <h2 class="s-title">Laravel</h2>
                 <p class="s-description text-center">
                    <!-- Write here -->
                 </p>
@@ -195,10 +213,49 @@
           <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
-                <span class="ico-circle"><i class="bi bi-binoculars"></i></span>
+                <span class="ico-circle"><i class="fa-brands fa-free-code-camp"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Responsive Design</h2>
+                <h2 class="s-title">CodIgniter</h2>
+                <p class="s-description text-center">
+               <!-- Write here -->
+                </p>
+              </div>
+            </div>
+          </div>
+           <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa fa-code" aria-hidden="true"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">J Query</h2>
+                <p class="s-description text-center">
+               <!-- Write here -->
+                </p>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa-brands fa-js"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">JAVASCRIPT</h2>
+                <p class="s-description text-center">
+               <!-- Write here -->
+                </p>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa-solid fa-database"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">MY SQL</h2>
                 <p class="s-description text-center">
                <!-- Write here -->
                 </p>
@@ -209,7 +266,51 @@
       </div>
     </section><!-- End Services Section -->
 
+    <!-- ======= Experience Section ======= -->
+    <section id="experience" class="experience-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Experience
+              </h3>
+              <p class="subtitle-a">
+                 Company I have worked with
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+           <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="fa-brands fa-weebly"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Webvire Software Solutions</h2>
+                <p class="s-description text-center">
+               <!-- Write here -->
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Experience Section -->
+
+
     <!-- ======= Counter Section ======= -->
+     <div class="title-box text-center">
+              <h3 class="title-a">
+                Education
+              </h3>
+              <p class="subtitle-a">
+                All the education I have done
+              </p>
+              <div class="line-mf"></div>
+            </div>
     <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container position-relative">
@@ -217,44 +318,49 @@
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-check"></i></span>
+                <span class="ico-circle"><i class="fa fa-book" aria-hidden="true"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">WORKS COMPLETED</span>
+                <sapn data-purecounter-start="0" data-purecounter-end="74" data-purecounter-duration="1" class="counter purecounter"></sapn>
+                <sapn>%</sapn>
+                <p class="counter-text">High School</p>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+                <span class="ico-circle"><i class="fa-solid fa-school"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">YEARS OF EXPERIENCE</span>
+                <sapn data-purecounter-start="0" data-purecounter-end="67" data-purecounter-duration="1" class="counter purecounter"></sapn>
+                <sapn>%</sapn>
+                <p class="counter-text">Intermediate</p>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-people"></i></span>
+                <span class="ico-circle"><i class="fa-solid fa-graduation-cap"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">TOTAL CLIENTS</span>
+                <sapn data-purecounter-start="0" data-purecounter-end="66" data-purecounter-duration="1" class="counter purecounter"></sapn>
+                <sapn>%</sapn>
+                <p class="counter-text">Graduation (BCA)</p>
               </div>
             </div>
           </div>
           <div class="col-sm-3 col-lg-3">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico">
-                <span class="ico-circle"><i class="bi bi-award"></i></span>
+                <span class="ico-circle"><i class="fa-solid fa-user-graduate"></i></span>
               </div>
               <div class="counter-num">
-                <p data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="counter purecounter"></p>
-                <span class="counter-text">AWARD WON</span>
+                <!-- <p data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="counter purecounter"></p> -->
+                <p class="counter-text">Ongoing...</p>
+                <p></p>
+                <span class="counter-text">Post Graduation (MCA)</span>
               </div>
             </div>
           </div>
